@@ -1,16 +1,61 @@
-## Hi there 👋
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
 
-<!--
-**arjun27code/arjun27code** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arjun27code/arjun27code/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arjun27code/arjun27code/main/light.svg">
+  <img width="100%" alt="Arjun Prakash Verma" src="https://raw.githubusercontent.com/arjun27code/arjun27code/main/light.svg">
+</picture>
 
-Here are some ideas to get you started:
+<!-- ===== GITHUB STATS ===== -->
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=arjun27code&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=arjun27code&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Arjun's GitHub streak" />
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=arjun27code&show_icons=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=arjun27code&show_icons=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Arjun's GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=arjun27code&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjun27code&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Arjun's most used languages" />
+</picture>
+
+</div>
+
+<!-- ===== CONTRIBUTION SNAKE ===== -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arjun27code/arjun27code/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arjun27code/arjun27code/output/snake-light.svg" />
+  <img alt="Snake eating Arjun's GitHub contributions" src="https://raw.githubusercontent.com/arjun27code/arjun27code/output/snake-light.svg" />
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ===== PROJECTS ===== -->
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/arjun27code/arjun27code/main/projects/projects.svg" alt="Selected projects" />
+</div>
+
+<br/>
+
+<!-- ===== CONTACT ===== -->
+
+<div align="center">
+
+<a href="mailto:ethionagency@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email Arjun" />
+</a>
+
+</div>
