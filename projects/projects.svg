@@ -69,27 +69,6 @@ role="img" aria-label="Selected projects by Arjun Prakash Verma">
     </g>
     
     <g>
-      <rect x="600" y="92" width="545" height="174" rx="14" class="card"/>
-      <rect x="600" y="92" width="545" height="4" rx="2" class="accent-line"/>
-      <circle cx="644" cy="140" r="24" class="icon-bg"/>
-      <text x="644" y="146" text-anchor="middle" class="icon-text">CM</text>
-
-      <text x="686" y="135" class="project-title">CCMTS</text>
-      <text x="686" y="160" class="project-desc">Court-case monitoring, hearing tracking</text>
-      <text x="686" y="180" class="project-desc">and office-assistant workflows.</text>
-      <text x="686" y="200" class="status">IN DEVELOPMENT</text>
-
-      <circle cx="1092" cy="154" r="28" fill="none" class="ring-bg" stroke-width="7"/>
-      <circle cx="1092" cy="154" r="28" fill="none" class="ring"
-        stroke-width="7" stroke-linecap="round"
-        stroke-dasharray="137.2 38.7"
-        transform="rotate(-90 1092 154)"/>
-      <text x="1092" y="159" text-anchor="middle" class="percent">78%</text>
-
-      <rect x="686" y="214" width="64" height="24" rx="12" class="tag-bg"/><text x="718.0" y="231" text-anchor="middle" class="tag-text">Next.js</text><rect x="760" y="214" width="70" height="24" rx="12" class="tag-bg"/><text x="795.0" y="231" text-anchor="middle" class="tag-text">Supabase</text><rect x="840" y="214" width="64" height="24" rx="12" class="tag-bg"/><text x="872.0" y="231" text-anchor="middle" class="tag-text">n8n</text>
-    </g>
-    
-    <g>
       <rect x="35" y="292" width="545" height="174" rx="14" class="card"/>
       <rect x="35" y="292" width="545" height="4" rx="2" class="accent-line"/>
       <circle cx="79" cy="340" r="24" class="icon-bg"/>
