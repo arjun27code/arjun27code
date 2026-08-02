@@ -1,23 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="710" viewBox="0 0 1180 710"
 role="img" aria-label="Selected projects by Arjun Prakash Verma">
+
 <style>
   .bg { fill:#F8FAFC; }
   .frame { fill:#FFFFFF; stroke:#CBD5E1; }
-  .header { fill:#0F172A; font:700 22px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-  .sub { fill:#64748B; font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; letter-spacing:2px; }
-  .card { fill:#FFFFFF; stroke:#CBD5E1; }
+
+  .header {
+    fill:#0F172A;
+    font:700 22px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
+  .sub {
+    fill:#64748B;
+    font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    letter-spacing:2px;
+  }
+
+  .card {
+    fill:#FFFFFF;
+    stroke:#CBD5E1;
+  }
+
   .accent-line { fill:#0891B2; }
-  .icon-bg { fill:#EDE9FE; stroke:#7C3AED; }
-  .icon-text { fill:#7C3AED; font:700 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-  .project-title { fill:#0F172A; font:700 17px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-  .project-desc { fill:#475569; font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-  .status { fill:#059669; font:700 10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; letter-spacing:1px; }
-  .tag-bg { fill:#F1F5F9; stroke:#CBD5E1; }
-  .tag-text { fill:#475569; font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+
+  .icon-bg {
+    fill:#EDE9FE;
+    stroke:#7C3AED;
+  }
+
+  .icon-text {
+    fill:#7C3AED;
+    font:700 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
+  .project-title {
+    fill:#0F172A;
+    font:700 17px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
+  .project-desc {
+    fill:#475569;
+    font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
+  .status {
+    fill:#059669;
+    font:700 10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    letter-spacing:1px;
+  }
+
+  .tag-bg {
+    fill:#F1F5F9;
+    stroke:#CBD5E1;
+  }
+
+  .tag-text {
+    fill:#475569;
+    font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
   .ring-bg { stroke:#E2E8F0; }
   .ring { stroke:#7C3AED; }
-  .percent { fill:#0F172A; font:700 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-  .footer { fill:#64748B; font:11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+
+  .percent {
+    fill:#0F172A;
+    font:700 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
+  .footer {
+    fill:#64748B;
+    font:11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
 
   @media (prefers-color-scheme: dark) {
     .bg { fill:#070B16; }
@@ -42,118 +95,341 @@ role="img" aria-label="Selected projects by Arjun Prakash Verma">
 
 <rect width="1180" height="710" rx="18" class="bg"/>
 <rect x="2" y="2" width="1176" height="706" rx="18" class="frame"/>
+
 <text x="35" y="46" class="sub">PROJECT.INDEX</text>
 <text x="35" y="74" class="header">Selected projects</text>
-<text x="1145" y="72" text-anchor="end" class="sub">BUILDING PRACTICAL SYSTEMS</text>
+<text x="1145" y="72" text-anchor="end" class="sub">
+  BUILDING PRACTICAL SYSTEMS
+</text>
 
+<!-- TrustBoundary -->
 
-    <g>
-      <rect x="35" y="92" width="545" height="174" rx="14" class="card"/>
-      <rect x="35" y="92" width="545" height="4" rx="2" class="accent-line"/>
-      <circle cx="79" cy="140" r="24" class="icon-bg"/>
-      <text x="79" y="146" text-anchor="middle" class="icon-text">TB</text>
+<g>
+  <rect x="35" y="92" width="545" height="174" rx="14" class="card"/>
+  <rect x="35" y="92" width="545" height="4" rx="2" class="accent-line"/>
 
-      <text x="121" y="135" class="project-title">TrustBoundary</text>
-      <text x="121" y="160" class="project-desc">Pre-deploy security scanner for</text>
-      <text x="121" y="180" class="project-desc">AI-generated applications.</text>
-      <text x="121" y="200" class="status">OPEN SOURCE</text>
+  <circle cx="79" cy="140" r="24" class="icon-bg"/>
+  <text x="79" y="146" text-anchor="middle" class="icon-text">TB</text>
 
-      <circle cx="527" cy="154" r="28" fill="none" class="ring-bg" stroke-width="7"/>
-      <circle cx="527" cy="154" r="28" fill="none" class="ring"
-        stroke-width="7" stroke-linecap="round"
-        stroke-dasharray="161.9 14.1"
-        transform="rotate(-90 527 154)"/>
-      <text x="527" y="159" text-anchor="middle" class="percent">92%</text>
+  <text x="121" y="135" class="project-title">TrustBoundary</text>
+  <text x="121" y="160" class="project-desc">
+    Pre-deploy security scanner for
+  </text>
+  <text x="121" y="180" class="project-desc">
+    AI-generated applications.
+  </text>
+  <text x="121" y="200" class="status">OPEN SOURCE</text>
 
-      <rect x="121" y="214" width="84" height="24" rx="12" class="tag-bg"/><text x="163.0" y="231" text-anchor="middle" class="tag-text">TypeScript</text><rect x="215" y="214" width="112" height="24" rx="12" class="tag-bg"/><text x="271.0" y="231" text-anchor="middle" class="tag-text">GitHub Actions</text><rect x="337" y="214" width="64" height="24" rx="12" class="tag-bg"/><text x="369.0" y="231" text-anchor="middle" class="tag-text">MCP</text>
-    </g>
-    
-    <g>
-      <rect x="35" y="292" width="545" height="174" rx="14" class="card"/>
-      <rect x="35" y="292" width="545" height="4" rx="2" class="accent-line"/>
-      <circle cx="79" cy="340" r="24" class="icon-bg"/>
-      <text x="79" y="346" text-anchor="middle" class="icon-text">TB</text>
+  <circle
+    cx="527"
+    cy="154"
+    r="28"
+    fill="none"
+    class="ring-bg"
+    stroke-width="7"
+  />
 
-      <text x="121" y="335" class="project-title">Track Back</text>
-      <text x="121" y="360" class="project-desc">Motorcycle ride, fuel, parts and</text>
-      <text x="121" y="380" class="project-desc">maintenance tracking application.</text>
-      <text x="121" y="400" class="status">PLANNING</text>
+  <circle
+    cx="527"
+    cy="154"
+    r="28"
+    fill="none"
+    class="ring"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="161.9 14.1"
+    transform="rotate(-90 527 154)"
+  />
 
-      <circle cx="527" cy="354" r="28" fill="none" class="ring-bg" stroke-width="7"/>
-      <circle cx="527" cy="354" r="28" fill="none" class="ring"
-        stroke-width="7" stroke-linecap="round"
-        stroke-dasharray="66.9 109.1"
-        transform="rotate(-90 527 354)"/>
-      <text x="527" y="359" text-anchor="middle" class="percent">38%</text>
+  <text x="527" y="159" text-anchor="middle" class="percent">92%</text>
 
-      <rect x="121" y="414" width="64" height="24" rx="12" class="tag-bg"/><text x="153.0" y="431" text-anchor="middle" class="tag-text">Android</text><rect x="195" y="414" width="84" height="24" rx="12" class="tag-bg"/><text x="237.0" y="431" text-anchor="middle" class="tag-text">OpenTracks</text><rect x="289" y="414" width="64" height="24" rx="12" class="tag-bg"/><text x="321.0" y="431" text-anchor="middle" class="tag-text">Maps</text>
-    </g>
-    
-    <g>
-      <rect x="600" y="292" width="545" height="174" rx="14" class="card"/>
-      <rect x="600" y="292" width="545" height="4" rx="2" class="accent-line"/>
-      <circle cx="644" cy="340" r="24" class="icon-bg"/>
-      <text x="644" y="346" text-anchor="middle" class="icon-text">AC</text>
+  <rect x="121" y="214" width="84" height="24" rx="12" class="tag-bg"/>
+  <text x="163" y="231" text-anchor="middle" class="tag-text">
+    TypeScript
+  </text>
 
-      <text x="686" y="335" class="project-title">Automation Control Centre</text>
-      <text x="686" y="360" class="project-desc">Monitoring and operational control</text>
-      <text x="686" y="380" class="project-desc">for n8n agencies and teams.</text>
-      <text x="686" y="400" class="status">VALIDATION</text>
+  <rect x="215" y="214" width="112" height="24" rx="12" class="tag-bg"/>
+  <text x="271" y="231" text-anchor="middle" class="tag-text">
+    GitHub Actions
+  </text>
 
-      <circle cx="1092" cy="354" r="28" fill="none" class="ring-bg" stroke-width="7"/>
-      <circle cx="1092" cy="354" r="28" fill="none" class="ring"
-        stroke-width="7" stroke-linecap="round"
-        stroke-dasharray="44.0 131.9"
-        transform="rotate(-90 1092 354)"/>
-      <text x="1092" y="359" text-anchor="middle" class="percent">25%</text>
+  <rect x="337" y="214" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="369" y="231" text-anchor="middle" class="tag-text">
+    MCP
+  </text>
+</g>
 
-      <rect x="686" y="414" width="64" height="24" rx="12" class="tag-bg"/><text x="718.0" y="431" text-anchor="middle" class="tag-text">Flutter</text><rect x="760" y="414" width="64" height="24" rx="12" class="tag-bg"/><text x="792.0" y="431" text-anchor="middle" class="tag-text">n8n API</text><rect x="834" y="414" width="84" height="24" rx="12" class="tag-bg"/><text x="876.0" y="431" text-anchor="middle" class="tag-text">PostgreSQL</text>
-    </g>
-    
-    <g>
-      <rect x="35" y="492" width="545" height="174" rx="14" class="card"/>
-      <rect x="35" y="492" width="545" height="4" rx="2" class="accent-line"/>
-      <circle cx="79" cy="540" r="24" class="icon-bg"/>
-      <text x="79" y="546" text-anchor="middle" class="icon-text">GS</text>
+<!-- Automation Control Centre -->
 
-      <text x="121" y="535" class="project-title">GREEN SPACE DEV</text>
-      <text x="121" y="560" class="project-desc">Modern web experience with</text>
-      <text x="121" y="580" class="project-desc">Supabase-backed forms and workflows.</text>
-      <text x="121" y="600" class="status">LIVE</text>
+<g>
+  <rect x="600" y="92" width="545" height="174" rx="14" class="card"/>
+  <rect x="600" y="92" width="545" height="4" rx="2" class="accent-line"/>
 
-      <circle cx="527" cy="554" r="28" fill="none" class="ring-bg" stroke-width="7"/>
-      <circle cx="527" cy="554" r="28" fill="none" class="ring"
-        stroke-width="7" stroke-linecap="round"
-        stroke-dasharray="175.9 0.0"
-        transform="rotate(-90 527 554)"/>
-      <text x="527" y="559" text-anchor="middle" class="percent">100%</text>
+  <circle cx="644" cy="140" r="24" class="icon-bg"/>
+  <text x="644" y="146" text-anchor="middle" class="icon-text">AC</text>
 
-      <rect x="121" y="614" width="64" height="24" rx="12" class="tag-bg"/><text x="153.0" y="631" text-anchor="middle" class="tag-text">Web</text><rect x="195" y="614" width="70" height="24" rx="12" class="tag-bg"/><text x="230.0" y="631" text-anchor="middle" class="tag-text">Supabase</text><rect x="275" y="614" width="64" height="24" rx="12" class="tag-bg"/><text x="307.0" y="631" text-anchor="middle" class="tag-text">UI</text>
-    </g>
-    
-    <g>
-      <rect x="600" y="492" width="545" height="174" rx="14" class="card"/>
-      <rect x="600" y="492" width="545" height="4" rx="2" class="accent-line"/>
-      <circle cx="644" cy="540" r="24" class="icon-bg"/>
-      <text x="644" y="546" text-anchor="middle" class="icon-text">C3</text>
+  <text x="686" y="135" class="project-title">
+    Automation Control Centre
+  </text>
 
-      <text x="686" y="535" class="project-title">CUT CLIP CREW</text>
-      <text x="686" y="560" class="project-desc">Production-ready product interface</text>
-      <text x="686" y="580" class="project-desc">built with a maintainable web stack.</text>
-      <text x="686" y="600" class="status">BUILDING</text>
+  <text x="686" y="160" class="project-desc">
+    Monitoring and operational control
+  </text>
 
-      <circle cx="1092" cy="554" r="28" fill="none" class="ring-bg" stroke-width="7"/>
-      <circle cx="1092" cy="554" r="28" fill="none" class="ring"
-        stroke-width="7" stroke-linecap="round"
-        stroke-dasharray="105.6 70.4"
-        transform="rotate(-90 1092 554)"/>
-      <text x="1092" y="559" text-anchor="middle" class="percent">60%</text>
+  <text x="686" y="180" class="project-desc">
+    for n8n agencies and teams.
+  </text>
 
-      <rect x="686" y="614" width="64" height="24" rx="12" class="tag-bg"/><text x="718.0" y="631" text-anchor="middle" class="tag-text">Next.js</text><rect x="760" y="614" width="70" height="24" rx="12" class="tag-bg"/><text x="795.0" y="631" text-anchor="middle" class="tag-text">Tailwind</text><rect x="840" y="614" width="77" height="24" rx="12" class="tag-bg"/><text x="878.5" y="631" text-anchor="middle" class="tag-text">shadcn/ui</text>
-    </g>
-    
+  <text x="686" y="200" class="status">VALIDATION</text>
 
-<line x1="35" y1="680" x2="1145" y2="680" stroke="#334155" opacity="0.35"/>
-<text x="35" y="699" class="footer">automation / applications / security / open source</text>
-<text x="1145" y="699" text-anchor="end" class="footer">@arjun27code</text>
+  <circle
+    cx="1092"
+    cy="154"
+    r="28"
+    fill="none"
+    class="ring-bg"
+    stroke-width="7"
+  />
+
+  <circle
+    cx="1092"
+    cy="154"
+    r="28"
+    fill="none"
+    class="ring"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="44.0 131.9"
+    transform="rotate(-90 1092 154)"
+  />
+
+  <text x="1092" y="159" text-anchor="middle" class="percent">
+    25%
+  </text>
+
+  <rect x="686" y="214" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="718" y="231" text-anchor="middle" class="tag-text">
+    Flutter
+  </text>
+
+  <rect x="760" y="214" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="792" y="231" text-anchor="middle" class="tag-text">
+    n8n API
+  </text>
+
+  <rect x="834" y="214" width="84" height="24" rx="12" class="tag-bg"/>
+  <text x="876" y="231" text-anchor="middle" class="tag-text">
+    PostgreSQL
+  </text>
+</g>
+
+<!-- Track Back -->
+
+<g>
+  <rect x="35" y="292" width="545" height="174" rx="14" class="card"/>
+  <rect x="35" y="292" width="545" height="4" rx="2" class="accent-line"/>
+
+  <circle cx="79" cy="340" r="24" class="icon-bg"/>
+  <text x="79" y="346" text-anchor="middle" class="icon-text">TB</text>
+
+  <text x="121" y="335" class="project-title">Track Back</text>
+
+  <text x="121" y="360" class="project-desc">
+    Motorcycle ride, fuel, parts and
+  </text>
+
+  <text x="121" y="380" class="project-desc">
+    maintenance tracking application.
+  </text>
+
+  <text x="121" y="400" class="status">PLANNING</text>
+
+  <circle
+    cx="527"
+    cy="354"
+    r="28"
+    fill="none"
+    class="ring-bg"
+    stroke-width="7"
+  />
+
+  <circle
+    cx="527"
+    cy="354"
+    r="28"
+    fill="none"
+    class="ring"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="66.9 109.1"
+    transform="rotate(-90 527 354)"
+  />
+
+  <text x="527" y="359" text-anchor="middle" class="percent">
+    38%
+  </text>
+
+  <rect x="121" y="414" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="153" y="431" text-anchor="middle" class="tag-text">
+    Android
+  </text>
+
+  <rect x="195" y="414" width="84" height="24" rx="12" class="tag-bg"/>
+  <text x="237" y="431" text-anchor="middle" class="tag-text">
+    OpenTracks
+  </text>
+
+  <rect x="289" y="414" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="321" y="431" text-anchor="middle" class="tag-text">
+    Maps
+  </text>
+</g>
+
+<!-- GREEN SPACE DEV -->
+
+<g>
+  <rect x="35" y="492" width="545" height="174" rx="14" class="card"/>
+  <rect x="35" y="492" width="545" height="4" rx="2" class="accent-line"/>
+
+  <circle cx="79" cy="540" r="24" class="icon-bg"/>
+  <text x="79" y="546" text-anchor="middle" class="icon-text">GS</text>
+
+  <text x="121" y="535" class="project-title">
+    GREEN SPACE DEV
+  </text>
+
+  <text x="121" y="560" class="project-desc">
+    Modern web experience with
+  </text>
+
+  <text x="121" y="580" class="project-desc">
+    Supabase-backed forms and workflows.
+  </text>
+
+  <text x="121" y="600" class="status">LIVE</text>
+
+  <circle
+    cx="527"
+    cy="554"
+    r="28"
+    fill="none"
+    class="ring-bg"
+    stroke-width="7"
+  />
+
+  <circle
+    cx="527"
+    cy="554"
+    r="28"
+    fill="none"
+    class="ring"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="175.9 0.0"
+    transform="rotate(-90 527 554)"
+  />
+
+  <text x="527" y="559" text-anchor="middle" class="percent">
+    100%
+  </text>
+
+  <rect x="121" y="614" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="153" y="631" text-anchor="middle" class="tag-text">
+    Web
+  </text>
+
+  <rect x="195" y="614" width="70" height="24" rx="12" class="tag-bg"/>
+  <text x="230" y="631" text-anchor="middle" class="tag-text">
+    Supabase
+  </text>
+
+  <rect x="275" y="614" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="307" y="631" text-anchor="middle" class="tag-text">
+    UI
+  </text>
+</g>
+
+<!-- CUT CLIP CREW -->
+
+<g>
+  <rect x="600" y="492" width="545" height="174" rx="14" class="card"/>
+  <rect x="600" y="492" width="545" height="4" rx="2" class="accent-line"/>
+
+  <circle cx="644" cy="540" r="24" class="icon-bg"/>
+  <text x="644" y="546" text-anchor="middle" class="icon-text">
+    C3
+  </text>
+
+  <text x="686" y="535" class="project-title">
+    CUT CLIP CREW
+  </text>
+
+  <text x="686" y="560" class="project-desc">
+    Production-ready product interface
+  </text>
+
+  <text x="686" y="580" class="project-desc">
+    built with a maintainable web stack.
+  </text>
+
+  <text x="686" y="600" class="status">BUILDING</text>
+
+  <circle
+    cx="1092"
+    cy="554"
+    r="28"
+    fill="none"
+    class="ring-bg"
+    stroke-width="7"
+  />
+
+  <circle
+    cx="1092"
+    cy="554"
+    r="28"
+    fill="none"
+    class="ring"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="105.6 70.4"
+    transform="rotate(-90 1092 554)"
+  />
+
+  <text x="1092" y="559" text-anchor="middle" class="percent">
+    60%
+  </text>
+
+  <rect x="686" y="614" width="64" height="24" rx="12" class="tag-bg"/>
+  <text x="718" y="631" text-anchor="middle" class="tag-text">
+    Next.js
+  </text>
+
+  <rect x="760" y="614" width="70" height="24" rx="12" class="tag-bg"/>
+  <text x="795" y="631" text-anchor="middle" class="tag-text">
+    Tailwind
+  </text>
+
+  <rect x="840" y="614" width="77" height="24" rx="12" class="tag-bg"/>
+  <text x="878.5" y="631" text-anchor="middle" class="tag-text">
+    shadcn/ui
+  </text>
+</g>
+
+<line
+  x1="35"
+  y1="680"
+  x2="1145"
+  y2="680"
+  stroke="#334155"
+  opacity="0.35"
+/>
+
+<text x="35" y="699" class="footer">
+  automation / applications / security / open source
+</text>
+
+<text x="1145" y="699" text-anchor="end" class="footer">
+  @arjun27code
+</text>
+
 </svg>
